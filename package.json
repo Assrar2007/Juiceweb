@@ -1,0 +1,32 @@
+{
+  "name": "fizzora",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Fizzora — a premium dirty-soda brand site with a members-only deals club (demo).",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fontsource-variable/space-grotesk": "^5.2.0",
+    "@fontsource/anton": "^5.2.0",
+    "lucide-react": "^0.544.0",
+    "motion": "^12.23.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.2",
+    "jsdom": "^30.1.2",
+    "tailwindcss": "^4.1.13",
+    "typescript": "~5.9.2",
+    "vite": "^7.1.5",
+    "vitest": "^3.2.4"
+  }
+}
